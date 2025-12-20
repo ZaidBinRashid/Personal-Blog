@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ZaidBinRashid/Personal-Blog#readme",
   "dependencies": {
     "body-parser": "^2.2.1",
-    "cookieparser": "^0.1.0",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",

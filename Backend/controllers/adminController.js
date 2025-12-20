@@ -1,3 +1,4 @@
+import { log } from "console";
 import fs from "fs/promises";
 import path from "path";
 
@@ -52,3 +53,12 @@ export const deleteArticle = async (req, res) => {
     return res.status(500).send("Error deleting file");
   }
 };
+
+export const allArticles = async (req, res) => {
+  try {
+    
+  } catch (err) {    
+    console.error("Something went wrong!:", err);
+    return res.status(500).send("Error Fetching articles");
+  }
+}
